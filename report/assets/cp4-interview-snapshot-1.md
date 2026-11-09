@@ -1,0 +1,19 @@
+# CP4 — Interview snapshot 1
+
+| Trường | Nội dung |
+|---|---|
+| Người được hỏi (vai trò) | Nhân viên content & vận hành fanpage chuỗi cửa hàng thời trang/mỹ phẩm bán lẻ (phụ trách 4 fanpage, làm việc 1,5 năm — *ghi chú nội bộ: chị P., ẩn họ tên đầy đủ theo quy định bảo mật*) |
+| Thời điểm, cách hỏi | 09/11/2026, gọi điện trực tiếp 12 phút (hỏi theo bộ 8 câu Mom Test trong `cp4-interview-guide.md`) |
+| Có kể giải pháp trước khi hỏi không? | Không |
+| Câu nói đáng nhớ nhất (nguyên văn) | *"Viết nháp 1 bài nhờ ChatGPT thì chỉ mất vài phút thôi em, cái mệt nhất là gửi link sản phẩm với giá vào nhóm Zalo chờ chị chủ duyệt; lúc chị ấy đang bận tiếp khách hay làm việc với kho là bài cứ nằm im đấy nửa tiếng, trôi tuột dưới cả chục tin báo đơn."* |
+| Lần gần nhất gặp vấn đề | Sáng hôm qua (08/11/2026): cần lên 8 bài mẫu hàng mới về cho khung giờ 11h30 trưa. Đã soạn xong từ 10h30 và gửi vào nhóm Zalo duyệt bài, nhưng tin nhắn bị trôi giữa các tin đối soát kho nên đến 12h15 quản lý mới đọc và duyệt → lỡ mất khung giờ trưa của 3 bài. |
+| Workaround hiện tại | Mở file Excel báo giá của kho + album ảnh trong Zalo để copy từng món; dùng ChatGPT viết nháp lời dẫn rồi tự sửa lại; gửi từng bài vào nhóm Zalo chung để quản lý thả tim (`❤️`) xác nhận duyệt; sau đó tự vào *Meta Business Suite* đặt lịch đăng cho 4 trang. Khi cần hỏi lại bài cũ ai đăng thì kéo tìm lại trong nhóm Zalo hoặc mở *Activity Log* của trang. |
+| Mất bao lâu, bao lần | - **Tần suất:** 8–12 bài/ngày (khoảng 50–60 bài/tuần trên 4 fanpage).<br>- **Thời gian từng bước cho 1 bài:**<br>  1. Tìm ảnh & lấy giá/mã sản phẩm từ file kho + Zalo: **~4 phút/bài**.<br>  2. Đưa vào ChatGPT viết nháp + tự đọc sửa lại câu chữ, kiểm tra giá: **~6 phút/bài**.<br>  3. Gửi vào nhóm Zalo chờ quản lý duyệt: **15–30 phút/bài** (nếu quản lý rảnh thì 5 phút, bận thì 25–30 phút).<br>  4. Đặt lịch đăng trên *Meta Business Suite* cho 4 trang: **~2 phút/bài**.<br>- **Lỡ khung giờ đăng:** trung bình **3–4 bài/tuần** do kẹt chờ duyệt.<br>- **Sai giá / sai thông tin:** tháng trước gặp **2 lần** (do kho đổi giá khuyến mãi trong tin nhắn Zalo mà chưa sửa vào file Excel gốc); mất **~15 phút** hỏi lại trong nhóm và sửa lại trên cả 4 trang. |
+| Tín hiệu phản bác (nếu có) | 1. **Về bước đăng bài:** Chị P. **không còn đăng tay từng trang đến giờ mới bấm** mà đã dùng sẵn tính năng *Schedule (Lên lịch)* của *Meta Business Suite* (chỉ mất ~2 phút/bài), nên bước "canh giờ đăng tay" không phải là nỗi đau lớn ở chỗ chị.<br>2. **Về tần suất sai giá:** Chỉ xảy ra khoảng **2 lần/tháng** (ít hơn mức 5–10 lần/tháng nhóm giả định ban đầu), và nguyên nhân gốc là do **giá sản phẩm cập nhật rải rác trong chat thay vì 1 bảng chuẩn**, chứ không phải do người viết gõ nhầm. |
+| Insight | 1. Xác nhận **bước nghẽn lớn nhất làm bài lên trễ giờ là chờ duyệt lẻ qua nhóm chat (15–30 phút/bài)** và **gom thông tin/giá sản phẩm nằm rải rác (4 phút/bài)**, chứ không phải bước viết câu chữ hay bước bấm đăng.<br>2. Nhiều team nhỏ đã biết dùng *Meta Business Suite* để hẹn giờ đăng, nhưng **thiếu một bảng trung tâm vừa chứa giá chuẩn vừa làm nơi duyệt bài theo khung giờ cố định** trước khi đưa lên *Meta Business Suite*. |
+
+## Trả lời 3 câu kiểm chứng
+- Bước chậm nhất (chờ duyệt / đăng tay / soạn bài / khác): **Chờ quản lý duyệt bài qua nhóm chat** — số phút: **15–30 phút/bài** (trong khi thao tác gom thông tin + soạn + sửa là ~10 phút/bài, đặt lịch Meta Business Suite là ~2 phút/bài).
+- Có người duyệt bài không? Chờ bao lâu: **Có (chủ shop / quản lý duyệt giá và nội dung khuyến mãi qua Zalo)**; chờ trung bình **15–30 phút/bài** (lúc cao điểm bị trôi tin có thể quá 30 phút).
+- Sai giá / sai thông tin gần nhất: khi nào, mấy lần/tháng: **Tuần cuối tháng trước (cách đây ~10 ngày), trung bình ~2 lần/tháng**; mất khoảng **15 phút** để hỏi lại giá đúng trong nhóm và sửa bài trên 4 trang.
+
