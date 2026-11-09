@@ -7,8 +7,8 @@
 
 - Tên nhóm:
 - Thành viên: xem `TEAM.md`
-- Candidate problem được chọn (1 câu): Nhân viên content đăng hơn 10 bài sản phẩm/ngày lên nhiều fanpage, mỗi bài mất 13 phút thao tác tay và 15 phút chờ quản lý duyệt, khiến 4–5 bài/tuần lỡ khung giờ đăng.
-- Quyết định cuối: **Not Yet** (cần phỏng vấn người ngoài nhóm và bấm giờ 20 bài trước khi pilot)
+- Candidate problem được chọn (1 câu): Nhân viên content của shop bán lẻ nhỏ phải gửi lẻ từng bài vào nhóm Zalo chờ chủ shop duyệt (15 phút đến 3,5 tiếng/bài) và lấy giá từ nhiều nguồn không đồng bộ, khiến 3–5 bài/tuần lỡ khung giờ đăng và 1–2 bài/tháng sai giá phải bù tiền cho khách.
+- Quyết định cuối: **Go, phạm vi nhỏ** (mức Rule kèm sửa quy trình duyệt; pilot 2 tuần, 1 fanpage, không có AI trong pilot)
 
 ---
 
@@ -119,62 +119,78 @@ Lý do chấm ở các ô thấp:
 
 | # | Giả định | Loại (Value / Usability / Feasibility / Viability) | Quan trọng (1–5) | Đã có bằng chứng (1–5) | Kiểm chứng trước? |
 |---:|---|---|---:|---:|---|
-| 1 | Nhân viên content ở nơi khác cũng mất trên 20 phút/bài cho chuỗi soạn, chờ duyệt và đăng bài (baseline của Văn: 28 phút/bài) | Value | 5 | 1 | Có |
-| 2 | Bước tốn thời gian nhất là chờ duyệt (15'), không phải soạn bài (10' gồm copy, AI viết, sửa) | Value | 5 | 2 | Có |
-| 3 | Bài sai thông tin xảy ra đủ thường để đáng giải (≥5 lần/tháng) | Value | 4 | 2 | Có |
-| 4 | Thông tin sản phẩm đã nằm ở một nguồn có cấu trúc (file, web, phần mềm bán hàng) | Feasibility | 4 | 2 | Có |
-| 5 | Quản lý chấp nhận duyệt theo lô ở khung giờ cố định thay vì duyệt từng bài | Viability | 4 | 1 | Hỏi quản lý |
-| 6 | Team chưa dùng lên lịch và lịch sử hoạt động có sẵn của Facebook | Feasibility | 3 | 2 | — |
+| 1 | Nhân viên content ở nơi khác cũng mất trên 20 phút/bài cho chuỗi soạn, chờ duyệt và đăng bài (baseline của Văn: 28 phút/bài) | Value | 5 | 4 | Có — **xác nhận** |
+| 2 | Bước làm bài lên trễ nhất là chờ duyệt, không phải soạn bài | Value | 5 | 4 | Có — **xác nhận** |
+| 3 | Bài sai thông tin xảy ra đủ thường để đáng giải (≥5 lần/tháng) | Value | 4 | 3 | Có — **bác bỏ một phần** |
+| 4 | Thông tin sản phẩm đã nằm ở một nguồn có cấu trúc (file, web, phần mềm bán hàng) | Feasibility | 4 | 3 | Có — **một phần** |
+| 5 | Quản lý chấp nhận duyệt theo lô ở khung giờ cố định thay vì duyệt từng bài | Viability | 4 | 1 | Hỏi quản lý — **chưa kiểm** |
+| 6 | Team chưa dùng lên lịch và lịch sử hoạt động có sẵn của Facebook | Feasibility | 3 | 4 | — **bác bỏ** |
 
-Bằng chứng hiện có chỉ là số liệu Văn tự đo khi làm việc, nên các giả định Value đều ở mức 1–2.
+Giả định nhóm kiểm chứng trong buổi này: **#2**, **#1**, **#5**. Đã kiểm được #1, #2 (và thêm #3, #4, #6); #5 chưa kiểm được vì cả 3 người được hỏi đều là nhân viên, không có chủ shop hay quản lý.
 
-Giả định nhóm kiểm chứng trong buổi này: **#2** (nghẽn ở chờ duyệt hay ở soạn bài), **#1** (người ngoài nhóm có gặp không) và **#5** (quản lý có chấp nhận duyệt theo lô không). Nếu #2 sai thì cả quy trình tương lai ở mục 4 phải vẽ lại.
+Kết quả kiểm chứng từng giả định:
+
+- **#1 — xác nhận:** 3/3 người mất trên 20 phút/bài tính cả chờ duyệt. Thao tác tay 12'/bài (P.) đến 40–45'/bài (L.).
+- **#2 — xác nhận:** 3/3 nói chờ duyệt qua Zalo là bước làm bài lên trễ nhất: 15–30' (P.), trung bình 90' (người thứ 2), 30'–3,5 tiếng (L.). Lưu ý: với L., bước *tốn sức* nhất là lựa ảnh và soạn bài (35–40'/bài), nhưng bước *gây trễ* vẫn là chờ duyệt.
+- **#3 — bác bỏ một phần:** sai giá chỉ 1–2 lần/tháng ở cả 3 người, thấp hơn mức 5–10 lần/tháng của Văn. Nhưng hậu quả nặng: 2/3 người phải bù tiền chênh lệch cho khách.
+- **#4 — một phần:** giá nằm trong file Excel hoặc bảng giá của kho, nhưng giá khuyến mãi cập nhật trong tin nhắn Zalo mà không sửa vào file gốc (P., L.). Đây là nguyên nhân gốc của sai giá.
+- **#5 — chưa kiểm:** có một tín hiệu xấu: chủ shop của người thứ 2 không chịu vào Meta Business Suite để duyệt, thử Trello thì bỏ vì "rườm rà".
+- **#6 — bác bỏ:** 3/3 người đã dùng Meta Business Suite để lên lịch đăng. Bước "canh giờ vào từng trang đăng tay" chỉ là pain của team Văn.
 
 ### 3.2. Kiểm chứng
 
-Cách đã dùng: Phỏng vấn theo The Mom Test, bộ câu hỏi ở [cp4-interview-guide.md](../assets/cp4-interview-guide.md). Mục tiêu: 2–3 người ngoài nhóm có làm content hoặc quản lý fanpage.
+Cách đã dùng: **Phỏng vấn 3 người ngoài nhóm** theo The Mom Test (bộ câu hỏi ở [cp4-interview-guide.md](../assets/cp4-interview-guide.md)), gọi điện ngày 09/11/2026, 12–14 phút/buổi. Không ai được kể giải pháp trước khi hỏi.
 
-> **Chưa thực hiện.** Chưa có buổi phỏng vấn thật nào. Các ô dưới đây để trống, không điền thay. Mỗi buổi ghi vào `report/assets/cp4-interview-snapshot-N.md` theo mẫu trong guide.
+Interview snapshot đầy đủ:
 
-Interview snapshot (mỗi buổi phỏng vấn một bảng, hoặc đặt file trong `report/assets/cp4-interview-snapshot-N.md`):
+| # | File | Người phỏng vấn | Người được hỏi (vai trò) |
+|---:|---|---|---|
+| 1 | [cp4-interview-snapshot-ChiP.md](../assets/cp4-interview-snapshot-ChiP.md) | Hoàng Nguyên Long | Nhân viên content chuỗi thời trang/mỹ phẩm, 4 fanpage, 8–12 bài/ngày |
+| 2 | [cp4-interview.md](../assets/cp4-interview.md) | Lưu Đăng Tuấn | Nhân viên content kiêm quản lý fanpage thời trang nữ, 2 fanpage, 3–4 bài/ngày |
+| 3 | [cp4_interview_snapshot_1.md](../assets/cp4_interview_snapshot_1.md) | Lê Anh Sơn | Nhân viên content shop thời trang nữ, 2 fanpage, 4 bài/ngày |
+
+Snapshot rút gọn — người số 1 (chị P.):
 
 | Trường | Nội dung |
 |---|---|
-| Người được hỏi (vai trò, không ghi tên thật) | |
-| Câu nói đáng nhớ nhất (nguyên văn) | |
-| Lần gần nhất gặp vấn đề này: chuyện gì đã xảy ra? | |
-| Hiện đang xử lý bằng cách nào (workaround)? | |
-| Mất bao lâu, bao lần? | |
-| Insight / opportunity rút ra | |
+| Người được hỏi (vai trò, không ghi tên thật) | Nhân viên content & vận hành fanpage chuỗi thời trang/mỹ phẩm, 4 fanpage, 1,5 năm kinh nghiệm |
+| Câu nói đáng nhớ nhất (nguyên văn) | "Viết nháp 1 bài nhờ ChatGPT thì chỉ mất vài phút thôi em, cái mệt nhất là gửi link sản phẩm với giá vào nhóm Zalo chờ chị chủ duyệt; lúc chị ấy đang bận tiếp khách hay làm việc với kho là bài cứ nằm im đấy nửa tiếng, trôi tuột dưới cả chục tin báo đơn." |
+| Lần gần nhất gặp vấn đề này: chuyện gì đã xảy ra? | 08/11/2026: soạn xong 8 bài lúc 10h30 cho khung 11h30, tin xin duyệt trôi giữa các tin đối soát kho, 12h15 mới được duyệt → 3 bài lỡ khung trưa |
+| Hiện đang xử lý bằng cách nào (workaround)? | Copy giá từ Excel kho + ảnh từ Zalo → ChatGPT viết nháp → tự sửa → gửi nhóm Zalo, quản lý thả tim để duyệt → lên lịch trên Meta Business Suite |
+| Mất bao lâu, bao lần? | Gom giá/ảnh 4' + ChatGPT và sửa 6' + chờ duyệt 15–30' + lên lịch 2' mỗi bài; 3–4 bài/tuần lỡ khung giờ; sai giá 2 lần/tháng |
+| Insight / opportunity rút ra | Nghẽn ở chờ duyệt lẻ qua chat và giá nằm rải rác; viết bài và bấm đăng không phải pain |
 
 Tổng hợp:
 
 | Nguồn | Số người / số mẫu | Tín hiệu xác nhận | Tín hiệu phản bác |
 |---|---:|---|---|
-| Văn tự bấm giờ khi làm việc (trong nhóm) | 1 | 28 phút/bài (13' thao tác + 15' chờ duyệt); 4–5 bài/tuần trễ; 10 lần trùng hoặc trống lịch tuần trước; 5–10 lần/tháng phải tìm người đăng bài sai | Bước 2 đã dùng AI để viết bài, nên "viết bài" không còn là chỗ nghẽn; phần chậm là chờ duyệt và đăng tay |
-| Phỏng vấn người ngoài nhóm | 0 / 2–3 | *chưa có* | *chưa có* |
+| Văn tự bấm giờ (trong nhóm) | 1 | 28 phút/bài (13' thao tác + 15' chờ duyệt); 4–5 bài/tuần trễ | — |
+| Phỏng vấn người ngoài nhóm | 3 | **3/3** nói chờ duyệt qua Zalo là bước gây trễ nhất (15' đến 3,5 tiếng); **3/3** từng sai giá, 2/3 phải bù tiền cho khách; 2/3 nói sai giá do bảng giá kho không đồng bộ | **3/3** đã dùng Meta Business Suite lên lịch, không đăng tay; sai giá chỉ 1–2 lần/tháng; AI viết bài: **1/3** dùng được (P.), **1/3** đã thử và bỏ vì văn phong chung chung (L.), **1/3** không cần vì có công thức mẫu; **1/3** chủ shop từ chối công cụ mới (Trello, Meta) |
 
-**Nhóm đã sửa problem thế nào sau kiểm chứng:** Phỏng vấn chưa làm, nên dưới đây chỉ là các thay đổi từ phản biện khi pitch và từ research:
+**Nhóm đã sửa problem thế nào sau kiểm chứng:**
 
-- Bỏ hướng "AI viết bài": Văn đã dùng AI ở bước 2. Problem chuyển trọng tâm sang **chờ duyệt** và **đăng tay từng trang**.
-- Gộp #2 (ai đăng bài sai) và #3 (trùng lịch) vào cùng problem, vì cả hai đều giải được bằng một file theo dõi bài và tính năng lên lịch có sẵn.
-- Problem vẫn phải chờ phỏng vấn để xác nhận giả định #2. Nếu người ngoài nhóm nói khâu soạn mới là chậm nhất, nhóm sẽ sửa lại mục 4–7.
+- **Giữ bottleneck chờ duyệt** (Opportunity A): được 3/3 người ngoài nhóm xác nhận, và mức chờ của họ còn lâu hơn của Văn.
+- **Thêm nguyên nhân gốc của sai giá:** không phải người viết gõ nhầm, mà giá khuyến mãi cập nhật trong chat chưa vào bảng giá gốc. Opportunity B đổi từ "copy tay mất thời gian" sang "không có một bảng giá chuẩn duy nhất".
+- **Hạ Opportunity C** (đăng tay từng trang): 3/3 đã dùng lên lịch có sẵn. Chỉ giữ cho team Văn, giải bằng Meta Business Suite, không tính là pain chung.
+- **Hạ vai trò của AI:** chỉ 1/3 người thấy AI viết bài hữu ích. AI soạn nháp chuyển thành bước tùy chọn, không nằm trong pilot (xem mục 6).
+- **Thêm rủi ro mới:** chủ shop có thể không chịu duyệt trên công cụ khác Zalo. Quy trình duyệt theo lô phải chạy được ngay trong Zalo.
 
 ### 3.3. Research giải pháp đã có
 
 | Công cụ / case / pattern | Link | Giải bước nào trong quy trình? | Điểm mạnh | Khoảng trống / rủi ro | Bài học cho nhóm |
 |---|---|---|---|---|---|
-| Meta Business Suite — lên lịch bài cho Trang | https://www.facebook.com/business/help/1252240869631062 | Bước đăng: soạn trước, đặt giờ đăng, xem lịch các bài đã lên | Có sẵn, miễn phí cho người quản lý Trang | Không có bước duyệt nhiều cấp; không soạn bài | Giải được bước 4 + 6 (dán lên FB, đăng) và Opportunity C. **Không cần tự xây** phần đăng; bước duyệt phải làm ngoài công cụ |
-| Planable — quy trình duyệt bài | https://planable.io/guides/content-approvals-in-planable/ | Bước duyệt + lên lịch: duyệt bắt buộc rồi tự lên lịch khi được duyệt | Duyệt bắt buộc và tự lên lịch khi duyệt | Duyệt bắt buộc cần gói Pro, nhiều cấp cần Enterprise; tốn phí | Mượn **pattern** "duyệt xong mới được lên lịch", nhưng làm bằng file theo dõi + khung giờ duyệt cố định để khỏi tốn phí trong pilot |
-| Facebook Page Management History (Social Media Today, 01/2020) | https://www.socialmediatoday.com/news/facebook-adds-new-page-management-history-tab-in-page-tools/570171/ | Bước "biết ai đăng": lịch sử thao tác quản trị của Trang | Có sẵn | Bài từ 2020; tab này ghi thay đổi vai trò và cài đặt, việc đăng bài nằm ở Activity Log; cần tự kiểm giao diện hiện tại | Không dựa vào nó làm nguồn chính cho Opportunity D. Ghi người soạn và người duyệt vào file theo dõi (No AI) |
+| Meta Business Suite — lên lịch bài cho Trang | https://www.facebook.com/business/help/1252240869631062 | Bước đăng: soạn trước, đặt giờ đăng, xem lịch các bài đã lên | Có sẵn, miễn phí cho người quản lý Trang | Không có bước duyệt nhiều cấp; không soạn bài | Khâu "canh giờ vào từng trang đăng tay" (Opportunity C — 3'/bài, >30'/ngày) hoàn toàn giải được bằng **Rule/công cụ có sẵn miễn phí**, không cần tự xây tool đăng bài hay dùng AI |
+| Planable — quy trình duyệt bài | https://planable.io/guides/content-approvals-in-planable/ | Bước duyệt + lên lịch: duyệt bắt buộc rồi tự lên lịch khi được duyệt | Duyệt bắt buộc và tự lên lịch khi duyệt | Duyệt bắt buộc cần gói Pro, nhiều cấp cần Enterprise; tốn phí | Cơ chế **"duyệt tập trung theo trạng thái trước khi lên lịch"** là pattern chuẩn để xóa bottleneck chờ duyệt rời rạc qua chat (15'/bài); nhóm có thể học pattern này ngay trên Google Sheets chung (No AI + Rule) mà không tốn phí mua gói Pro/Enterprise cho >10 trang |
+| Facebook Page Management History (Social Media Today, 01/2020) | https://www.socialmediatoday.com/news/facebook-adds-new-page-management-history-tab-in-page-tools/570171/ | Bước "biết ai đăng": lịch sử thao tác quản trị của Trang | Có sẵn | Bài từ 2020; tab này ghi thay đổi vai trò và cài đặt, việc đăng bài nằm ở Activity Log; cần tự kiểm giao diện hiện tại | Facebook chỉ cho biết *ai bấm đăng trên Trang*, nhưng **không lưu ai là người soạn và ai là quản lý đã duyệt giá**; vì vậy cần 1 bảng theo dõi bài chung ghi rõ 2 cột `Người soạn` và `Người duyệt` (No AI/Rule) để tra ra ngay trong <1 phút thay vì mất 10–15 phút hỏi trong group |
 
-**Kết luận research:**
+**Kết luận research (đối chiếu với phỏng vấn):**
 
 ```text
-Phần đăng và lên lịch đã có công cụ miễn phí. Phần duyệt có công cụ nhưng tốn phí.
-Phần soạn bài team đã dùng AI. Không có lý do tự xây công cụ hay agent.
-Hướng hợp lý: file sản phẩm chuẩn (Rule) → AI soạn nháp bằng prompt chuẩn → người sửa
-→ quản lý duyệt theo lô → lên lịch bằng Meta Business Suite.
+Phần đăng và lên lịch đã có công cụ miễn phí, và 3/3 người được hỏi đã dùng.
+Phần duyệt có công cụ (Planable) nhưng tốn phí, và chủ shop nhỏ ngại công cụ mới.
+Phần soạn bài: 1/3 dùng AI được, 2/3 không cần. Không có lý do tự xây công cụ hay agent.
+Hướng hợp lý: 1 bảng giá + lịch đăng chuẩn (Rule) → duyệt theo lô ở khung giờ cố định (No AI)
+→ lên lịch bằng Meta Business Suite. AI soạn nháp là tùy chọn.
 ```
 
 ---
@@ -183,62 +199,89 @@ Hướng hợp lý: file sản phẩm chuẩn (Rule) → AI soạn nháp bằng 
 
 ### 4.1. Quy trình hiện tại
 
-Sơ đồ (ASCII, Mermaid hoặc link ảnh trong `report/assets/`):
+Sơ đồ quy trình hiện tại cho mỗi bài đăng sản phẩm (28 phút/bài = 13 phút thao tác + 15 phút chờ duyệt; kèm nhánh xử lý khi phát hiện bài sai giá 5–10 lần/tháng):
 
-```text
-HIỆN TẠI — 6 bước, 28 phút/bài (13' thao tác + 15' chờ), 6/6 bước thao tác tay
-
-[1 Copy thông tin SP: 3'] → [2 Dán vào AI viết: 2'] → [3 Sửa bài: 5']
-→ [4 Dán lên FB: 2'] → [5 Chờ duyệt: 15'] ← BOTTLENECK → [6 Đăng: 1']
-
-Lặp lại >10 bài/ngày/người, trên hơn 10 trang.
+```mermaid
+flowchart LR
+  B1["1. Copy thông tin SP<br/>từ nhiều nơi<br/>(NV content · 3'/bài)"] --> B2["2. Dán vào công cụ AI<br/>để viết nháp rời rạc<br/>(NV content · 2'/bài)"]
+  B2 --> B3["3. Đọc & sửa lại bài,<br/>kiểm giá thủ công<br/>(NV content · 5'/bài)"]
+  B3 --> B4["4. Gửi lẻ qua group chat<br/>& chờ quản lý duyệt<br/>(NV + Quản lý · 15'/bài)<br/>⚠️ BOTTLENECK CHÍNH"]
+  B4 --> B5["5. Canh giờ mở từng fanpage<br/>dán bài & ảnh(2') + bấm đăng(1')<br/>(NV content · 3'/bài · >30'/ngày)"]
+  B5 -. "Khi khách báo bài sai giá<br/>(5–10 lần/tháng)" .-> B6["6. Hỏi group 'ai đăng bài này?'<br/>& chờ người nhận để sửa<br/>(Quản lý + NV · 10–15'/lần)"]
 ```
 
 | Bước | Actor | Input | Output | Thời gian / tần suất | Ghi chú |
 |---:|---|---|---|---|---|
-| 1 | Nhân viên content | Thông tin sản phẩm (tên, giá, mô tả, ảnh) ở nhiều nơi | Thông tin đã copy | 3'/bài | Copy tay, dễ lấy nhầm giá |
-| 2 | Nhân viên content + công cụ AI | Thông tin sản phẩm | Bài nháp | 2'/bài | Đã dùng AI; prompt mỗi lần tự gõ |
-| 3 | Nhân viên content | Bài nháp | Bài đã sửa | 5'/bài | |
-| 4 | Nhân viên content | Bài đã sửa + ảnh | Bài trên Facebook chờ duyệt | 2'/bài | Vào từng trang trong hơn 10 trang |
-| 5 | Quản lý | Bài chờ duyệt | Bài được duyệt hoặc trả về | 15'/bài (chờ) | 4–5 bài/tuần lỡ khung giờ đăng |
-| 6 | Nhân viên content | Bài được duyệt | Bài đã đăng | 1'/bài | Phải canh giờ; 10 lần trùng hoặc trống lịch tuần trước |
+| 1 | Nhân viên content | Tên, giá, mô tả, ảnh sản phẩm nằm rải rác ở nhiều nơi (tin nhắn, file lẻ, web) | Thông tin sản phẩm gom tạm vào bộ nhớ đệm / ghi chú | **3 phút / bài** (>10 bài/ngày/người) | Phải chuyển qua lại nhiều cửa sổ, dễ copy nhầm giá cũ hoặc nhầm dòng sản phẩm |
+| 2 | Nhân viên content | Thông tin vừa copy ở Bước 1 + câu lệnh gõ tay mỗi lần | Bản nháp bài viết từ công cụ AI | **2 phút / bài** (>10 bài/ngày/người) | Mỗi nhân viên tự dặn prompt một kiểu, định dạng đầu ra không đồng nhất |
+| 3 | Nhân viên content | Bản nháp ở Bước 2 | Bài đăng hoàn chỉnh (đã chỉnh câu chữ, thông số, giá) | **5 phút / bài** (>10 bài/ngày/người) | Nếu Bước 1 copy thiếu hoặc AI tự thêm bớt khuyến mãi thì phải sửa lại nhiều |
+| 4 | Nhân viên content & Quản lý | Bài đã sửa gửi lẻ vào group chat xin duyệt | Tin nhắn xác nhận "OK/Duyệt" của quản lý | **15 phút chờ / bài** (>10 bài/ngày; 4–5 bài/tuần trễ giờ) | **BOTTLENECK CHÍNH:** Gửi lẻ từng bài qua chat làm tin xin duyệt bị trôi; thời gian chờ (15') lâu hơn cả tổng thời gian thao tác (13') |
+| 5 | Nhân viên content | Bài đã duyệt + ảnh sản phẩm | Bài hiển thị trên từng fanpage (trong >10 fanpage) | **3 phút / bài** (dán 2' + đăng 1'; **>30 phút/ngày/người**) | Phải tự nhớ giờ và vào từng trang đăng tay; tuần trước xảy ra **10 lần** trùng giờ hoặc bỏ trống lịch |
+| 6 | Quản lý & Nhân viên content | Comment/inbox của khách báo bài đăng bị sai giá hoặc sai thông tin | Tìm ra người soạn/đăng để sửa bài và phản hồi khách | **10–15 phút / lần tìm người** (+ 5' sửa bài + 5' trả lời khách; **5–10 lần/tháng**) | Bước phát sinh do không lưu vết ai soạn, ai duyệt; trong 10–15 phút chờ nhận, bài sai giá vẫn hiển thị với khách hàng |
 
-**Bottleneck chính:** Bước 5, chờ quản lý duyệt từng bài (~15'/bài). Bước này lâu hơn toàn bộ phần thao tác (13'/bài) và là nguyên nhân của 4–5 bài/tuần lỡ khung giờ. Chưa được người ngoài nhóm xác nhận (giả định #2).
+**Bottleneck chính:**
+- **Về tổng thời gian từ lúc có sản phẩm đến lúc bài lên (Lead time — 28 phút/bài):** Nghẽn nặng nhất ở **Bước 4 — Gửi lẻ từng bài qua chat và chờ quản lý duyệt (trung bình 15 phút/bài)**, làm 4–5 bài/tuần bị lỡ khung giờ đăng vàng.
+- **Về thời gian thao tác tay của nhân viên (Active time — 13 phút/bài × >10 bài = 130 phút/ngày/người):** Nghẽn ở cụm **Bước 1–3 (10 phút/bài copy rời rạc + viết/sửa lại)** và **Bước 5 (3 phút/bài canh giờ vào từng trang đăng tay, >30 phút/ngày)**.
+
+---
 
 ### 4.2. Quy trình tương lai
 
-Ghi rõ bước nào **Rule**, bước nào **AI**, bước nào **con người**, **boundary** ở đâu, **phương án quay về** khi AI sai.
+Ghi rõ bước nào **No AI**, bước nào **Rule**, bước nào **Workflow (AI)**, bước nào **Con người kiểm tra (HITL)**, **Boundary** ở đâu và **Phương án quay về (Fallback)** khi AI hoặc quy trình gặp sự cố:
 
-```text
-TƯƠNG LAI — 6 bước, ~7' thao tác/bài, 4/6 bước con người
+```mermaid
+flowchart TD
+  S1["1. Nhập/đồng bộ SP mới vào Bảng Sản Phẩm & Lịch Đăng chuẩn (Google Sheets)<br/>Cột cố định: Mã SP | Tên | Giá chuẩn | Ảnh | Fanpage | Giờ đăng | Người soạn | Người duyệt | Trạng thái<br/>[NO AI + RULE · 1'/bài]"]
+  --> S2["2. Tạo bản nháp bài đăng từ dòng dữ liệu SP + Template chuẩn theo ngành hàng<br/>(Khóa cứng trường Giá & Khuyến mãi lấy trực tiếp từ cột Giá chuẩn)<br/>[WORKFLOW (AI soạn nháp theo khung) · 1'/bài]"]
+  S2 --> S3["3. NV content đọc kiểm tra câu chữ, đối chiếu Giá & chuyển trạng thái 'Chờ duyệt'<br/>[CON NGƯỜI KIỂM TRA — HITL Cấp 1 · 2'/bài]"]
+  S3 --> S4["4. Quản lý duyệt theo lô (Batch Approval) trên Sheet vào 2–3 khung giờ cố định/ngày<br/>(Kiểm tra giá + nội dung → Tích 'Đã duyệt', Sheet tự lưu tên Người duyệt & giờ duyệt)<br/>[NO AI (Sửa quy trình duyệt) + CON NGƯỜI KIỂM TRA — HITL Cấp 2 · ~2'/bài]"]
+  S4 --> S5["5. Đặt lịch đăng sẵn (Schedule) trên Meta Business Suite theo khung giờ đã duyệt<br/>[RULE / Công cụ có sẵn · 2'/bài]"]
 
-[1 Nhập SP vào file sản phẩm chuẩn, 1 lần/SP: 1']      ← RULE (Google Sheet có cột cố định)
-→ [2 Dán 1 dòng SP vào prompt chuẩn → nháp: 1']        ← AI (công cụ team đang dùng)
-   Giá và tên SP KHÔNG do AI viết: chèn từ file vào template
-→ [3 Nhân viên sửa nháp + đối chiếu giá với file: 4'] ← CON NGƯỜI (HITL 1)
-→ [4 Quản lý duyệt theo lô, 2 khung giờ/ngày: ~1'/bài] ← CON NGƯỜI (HITL 2)
-→ [5 Lên lịch trên Meta Business Suite + ghi người soạn, người duyệt vào file: 1'] ← CON NGƯỜI
-→ [6 Bài tự đăng đúng giờ: 0']                        ← RULE (lên lịch có sẵn)
+  S2 -. "AI lỗi / viết lệch giọng văn<br/>hoặc sai cấu trúc" .-> FB1["PHƯƠNG ÁN QUAY VỀ 1 (FALLBACK SOẠN BÀI):<br/>Điền thẳng thông tin SP vào Template văn bản cố định (No AI · 3'/bài)"]
+  FB1 --> S3
 
-BOUNDARY: AI chỉ viết phần mô tả. AI không viết giá, tên, khuyến mãi; không lên lịch; không đăng.
-          Bài chưa có dấu "đã duyệt" trong file thì không được lên lịch.
-PHƯƠNG ÁN QUAY VỀ: nháp sai hoặc phải sửa quá nhiều → bỏ nháp, dùng template cố định theo loại SP (No AI).
-                   Meta Business Suite lỗi → đăng tay như hiện tại.
+  S4 -. "Bài cần lên gấp ngoài khung giờ duyệt<br/>(Flash sale / hàng về đột xuất)" .-> FB2["PHƯƠNG ÁN QUAY VỀ 2 (FALLBACK DUYỆT GẤP):<br/>Tag trực tiếp @Quản_lý kèm link dòng Sheet để duyệt nhanh trong 5'"]
+  FB2 --> S5
 ```
+
+- **Phân tách rõ vai trò từng bước trong quy trình tương lai:**
+  - **No AI (Chuẩn hóa quy trình & mẫu biểu):**
+    1. Tập trung thông tin sản phẩm và lịch đăng của các fanpage về **1 bảng Google Sheets chuẩn** có sẵn cột `Người soạn`, `Người duyệt`, `Trang đăng`, `Khung giờ` (xóa bỏ việc copy qua lại nhiều nơi và giải quyết triệt để việc tìm người khi bài sai giá trong <1 phút).
+    2. Chuyển từ **"gửi duyệt lẻ từng bài qua chat"** sang **"duyệt theo lô (Batch Approval) vào 2–3 khung giờ cố định trong ngày"** (ví dụ: 09h30, 14h00, 16h30) ngay trên bộ lọc `Trạng thái = Chờ duyệt` của Sheet.
+  - **Rule (Logic cố định & công cụ có sẵn):**
+    1. Dùng công thức/định dạng có điều kiện trên Google Sheets để cảnh báo đỏ nếu trùng khung giờ đăng trên cùng 1 fanpage hoặc thiếu cột `Giá chuẩn` / `Người duyệt`.
+    2. Dùng tính năng **Schedule (Lên lịch đăng)** có sẵn miễn phí của **Meta Business Suite** ở Bước 5 để đăng đúng giờ thay vì canh giờ đăng tay.
+  - **Workflow — Điểm can thiệp của AI (Bước 2 — 1 phút/bài):**
+    - AI chỉ can thiệp ở **Bước 2**: nhận đầu vào là các trường có cấu trúc của 1 dòng sản phẩm (`Tên SP`, `Đặc điểm nổi bật`, `Đối tượng khách`) và điền vào khung **Template bài đăng chuẩn** để tạo phần lời dẫn/mô tả hấp dẫn, trong khi **câu báo giá và ưu đãi được ghép bằng Rule trực tiếp từ cột `Giá chuẩn`** (không để AI tự gõ lại con số giá).
+  - **Con người kiểm tra (HITL — 2 lớp kiểm duyệt bắt buộc):**
+    - **HITL Cấp 1 (Bước 3 — Nhân viên content, 2 phút/bài):** Đọc chỉnh câu chữ của bản nháp AI và xác nhận giá/ảnh khớp với sản phẩm trước khi đổi trạng thái sang `Chờ duyệt`.
+    - **HITL Cấp 2 (Bước 4 — Quản lý fanpage, ~2 phút/bài khi duyệt theo lô):** Kiểm tra lần cuối nội dung và giá trên Sheet rồi mới chuyển trạng thái sang `Đã duyệt`.
+- **Boundary (Ranh giới an toàn bắt buộc):**
+  1. **AI không được tự suy diễn, làm tròn hoặc tự bịa giá bán, phần trăm giảm giá, quà tặng hay chính sách bảo hành** không có trong cột dữ liệu sản phẩm chuẩn.
+  2. **AI không được tự động đăng bài hoặc tự động đặt lịch lên fanpage (không dùng Agent):** không bài viết nào được đưa lên Meta Business Suite nếu cột `Trạng thái` trên Sheet chưa được Quản lý (con người) chuyển sang `Đã duyệt`.
+- **Phương án quay về (Fallback khi AI sai hoặc quy trình nghẽn):**
+  1. **Fallback ở bước AI soạn nháp (Bước 2):** Nếu công cụ AI bị lỗi, phản hồi chậm hoặc viết ra văn phong không đạt chuẩn (nhân viên thấy phải sửa quá 50% số câu), nhân viên bỏ ngay bản nháp AI và dùng **Template điền chỗ trống cố định (No AI)** có sẵn cho từng ngành hàng (chỉ mất ~3 phút/bài).
+  2. **Fallback ở bước duyệt theo khung giờ (Bước 4):** Nếu phát sinh sản phẩm/khuyến mãi khẩn cấp cần lên bài ngay ngoài khung giờ duyệt cố định, nhân viên gửi link trực tiếp dòng Sheet đó và gắn thẻ `@Quản lý` trong kênh duyệt nhanh để duyệt 1-1 trong vòng 5 phút.
+
+> **Cập nhật sau phỏng vấn (mục 3.2):** Bước 2 (AI soạn nháp) là **tùy chọn**, không nằm trong pilot: chỉ 1/3 người được hỏi thấy AI viết bài hữu ích. Ai không dùng AI thì điền thẳng vào template cố định (Fallback 1). Bước 4 phải chạy được ngay trong nhóm Zalo nếu quản lý không mở Sheet: nhân viên gom các bài `Chờ duyệt` thành **1 tin nhắn/khung giờ** kèm link Sheet, quản lý duyệt cả lô, nhân viên cập nhật cột `Người duyệt`. Số "~2' chờ bình quân" ở 4.3 là kỳ vọng; với 3 khung/ngày, bài có thể chờ tới khung kế tiếp, nên metric chính ở mục 7 là **số bài lỡ khung giờ**, không phải phút chờ.
+
+---
 
 ### 4.3. Before / after
 
 | Chỉ số | Trước | Sau (kỳ vọng) | Ghi chú |
 |---|---:|---:|---|
-| Số bước | 6 | 6 | Số bước giữ nguyên; thay đổi nằm ở cách làm từng bước |
-| Tổng thời gian | 28'/bài (13' thao tác + 15' chờ) | ~7'/bài thao tác + ~1' duyệt | Chờ duyệt chuyển thành duyệt theo lô; bài lên lịch trước nên không lỡ giờ |
-| Số bước thủ công | 6/6 | 4/6 | Bước 1 làm 1 lần/SP, bước 6 tự động |
-| Bottleneck chính | Chờ duyệt từng bài | Nhân viên sửa + đối chiếu giá (4') | Chấp nhận được vì là điểm kiểm soát chất lượng |
-| Rủi ro mới phát sinh | — | Quản lý bỏ lỡ khung duyệt; file sản phẩm không cập nhật giá mới; AI thêm thông tin không có trong file | Xử lý bằng boundary + tiêu chí đánh giá ở mục 7 |
+| **Số bước** | **6 bước** (5 bước soạn–duyệt–đăng + 1 bước hỏi group khi bài sai) | **5 bước** (gom Sheet chuẩn → AI nháp theo khung → NV kiểm → Quản lý duyệt theo lô → Lên lịch Meta) | Bỏ hẳn bước hỏi group "ai đăng bài này" (vì Sheet đã lưu sẵn `Người soạn` & `Người duyệt`) và bỏ việc canh giờ vào từng trang |
+| **Tổng thời gian** | **~28 phút / bài** (13' thao tác + 15' chờ duyệt) + **10–15 phút / lần** truy vết bài sai giá | **~8 phút / bài** (6' thao tác + ~2' chờ bình quân khi duyệt theo lô); truy vết bài sai **< 1 phút** | Giảm ~71% tổng thời gian mỗi bài và giảm >50% thời gian thao tác tay của nhân viên content (từ 13' xuống 6'/bài) |
+| **Số bước thủ công** | **6 / 6 bước** rời rạc (copy tay, dán prompt tay, gửi chat lẻ, canh giờ đăng tay) | **3 bước có con người** (nhập SP chuẩn 1', NV duyệt nháp 2', Quản lý duyệt lô 2') + **1 bước đặt lịch** (2') | Bước ghép giá vào khung bài và kiểm trùng lịch được chuẩn hóa bằng Rule + Workflow |
+| **Bottleneck chính** | Chờ quản lý duyệt từng bài lẻ qua group chat (**15 phút/bài**) và canh giờ đăng tay >10 trang (**>30 phút/ngày**) | Bước nhân viên & quản lý đọc duyệt nội dung + đặt lịch trên Meta Business Suite (**~2 phút/bước**) | Nhờ gom duyệt theo lô vào khung giờ cố định trên Sheet và dùng Schedule của Meta Business Suite, không còn bài bị trôi trong chat |
+| **Rủi ro mới phát sinh** | 4–5 bài/tuần trễ khung giờ đăng; 10 lần/tuần trùng hoặc trống lịch; 5–10 lần/tháng bài sai giá không biết ai đăng | 1. **Tâm lý ỷ lại vào bản nháp AI (Automation complacency):** NV đọc lướt không kỹ.<br>2. **Quản lý trễ khung giờ duyệt cố định** hoặc nhân viên quên cập nhật trạng thái trên Sheet. | Khắc phục bằng Rule tách riêng cột `Giá chuẩn` (không để AI tự viết lại số tiền) và quy định Fallback tag trực tiếp khi cần duyệt gấp |
 
 ---
 
 ## 5. Problem Statement v0 (CP5)
+
+*Viết trước khi có kết quả phỏng vấn.*
 
 | Trường | Nội dung |
 |---|---|
@@ -251,10 +294,10 @@ PHƯƠNG ÁN QUAY VỀ: nháp sai hoặc phải sửa quá nhiều → bỏ nhá
 
 Phản biện nhận được (từ AI hoặc nhóm khác) và nhóm có đồng ý không:
 
-- **AI:** Metric "phút/bài từ lúc có SP đến lúc lên" không hợp với duyệt theo lô, vì bài có thể chờ vài tiếng tới khung duyệt mà vẫn đăng đúng giờ. Thứ khách và team quan tâm là bài lên đúng khung giờ. → **Đồng ý**, v1 đổi sang đo thời gian thao tác và số bài lỡ giờ.
+- **AI:** Metric "phút/bài từ lúc có SP đến lúc lên" không hợp với duyệt theo lô, vì bài có thể chờ tới khung duyệt mà vẫn đăng đúng giờ. Thứ khách và team quan tâm là bài lên đúng khung giờ. → **Đồng ý**, v1 đổi sang đo số bài lỡ giờ.
 - **AI:** Metric chỉ đo tốc độ, không đo bài sai giá; nhanh hơn mà sai giá nhiều hơn thì không đạt. → **Đồng ý**, thêm metric bài sai giá.
-- **AI:** Boundary chưa nói AI có được viết giá không, trong khi sai giá là lỗi đã xảy ra 5–10 lần/tháng. → **Đồng ý**, v1 thêm "AI không viết giá, tên, khuyến mãi".
-- **Nhóm (Sơn):** Baseline mới từ 1 người. → **Đồng ý**, chưa sửa được trong buổi này; ghi vào điều kiện của quyết định Not Yet.
+- **AI:** Boundary chưa nói AI có được viết giá không, trong khi sai giá là lỗi đã xảy ra nhiều lần. → **Đồng ý**, v1 thêm "giá chỉ lấy từ cột `Giá chuẩn`".
+- **Nhóm (Sơn):** Baseline mới từ 1 người. → **Đồng ý**, đã phỏng vấn 3 người ngoài nhóm (mục 3.2).
 
 ---
 
@@ -262,38 +305,42 @@ Phản biện nhận được (từ AI hoặc nhóm khác) và nhóm có đồng
 
 ### 6.1. Ma trận độ mơ hồ × độ phức tạp
 
-Bài của nhóm nằm ở ô: **độ mơ hồ thấp–trung bình × độ phức tạp trung bình** → Rule cho phần dữ liệu và lịch, Workflow có AI ở một bước.
+Bài của nhóm nằm ở ô: **độ mơ hồ thấp × độ phức tạp trung bình** → No AI + Rule là đủ cho phần nghẽn chính.
 
-Vì sao: Phần quan trọng nhất của bài (tên, giá, ảnh) là dữ liệu có cấu trúc, nên không mơ hồ. Chỉ phần mô tả cần viết linh hoạt, và nhiều cách viết đều chấp nhận được. Độ phức tạp đến từ khối lượng (hơn 10 trang, >10 bài/người/ngày) và bước duyệt, nhưng các bước đều cố định, không rẽ nhánh.
+Vì sao: Chỗ nghẽn đã kiểm chứng (chờ duyệt, giá không đồng bộ) không mơ hồ: đây là vấn đề phối hợp và dữ liệu, không cần suy luận. Phần duy nhất mơ hồ là viết mô tả sản phẩm, nhưng phỏng vấn cho thấy 2/3 người không cần hỗ trợ ở phần này. Độ phức tạp đến từ khối lượng bài và nhiều trang, nhưng các bước đều cố định, không rẽ nhánh.
 
 ### 6.2. So sánh 4 mức
 
 | Mức | Phương án cho bài của nhóm | Đủ khi nào | Rủi ro | Chọn? |
 |---|---|---|---|---|
-| **No AI** (sửa quy trình) | Khung giờ duyệt cố định 2 lần/ngày; template bài theo loại SP; file theo dõi ghi người soạn, người duyệt | Giải được Opportunity A (chờ duyệt) và D (ai đăng) | Bài viết từ template đơn điệu; vẫn copy tay | **Dùng** cho duyệt và truy vết |
-| **Rule** | File sản phẩm chuẩn; chèn giá, tên vào template; lên lịch bằng Meta Business Suite | Giải được Opportunity B (copy tay) và C (đăng tay, trùng lịch) | File không được cập nhật thì sai giá hàng loạt | **Dùng** cho dữ liệu và lịch |
-| **Workflow** | Rule lấy dữ liệu → AI soạn phần mô tả bằng prompt chuẩn → người sửa → quản lý duyệt theo lô → lên lịch | Khi cần mô tả khác nhau cho mỗi SP, mỗi trang | AI thêm thông tin không có trong file | **Chọn** (mức tổng thể) |
+| **No AI** (sửa quy trình) | Duyệt theo lô 2–3 khung giờ cố định/ngày (trên Sheet hoặc 1 tin Zalo/khung); quy định kho cập nhật giá khuyến mãi vào bảng gốc trước khi báo trong chat | Giải được Opportunity A (chờ duyệt) và nguyên nhân gốc của sai giá | Chủ shop không giữ đúng khung giờ | **Chọn** |
+| **Rule** | Bảng Sản Phẩm & Lịch Đăng chuẩn: cột `Giá chuẩn` duy nhất, cảnh báo trùng giờ, cột `Người soạn`/`Người duyệt`; template ghép giá từ cột `Giá chuẩn`; lên lịch bằng Meta Business Suite | Giải được Opportunity B, C, D | Bảng không được cập nhật thì sai hàng loạt | **Chọn** |
+| **Workflow** | Thêm bước AI soạn phần mô tả từ 1 dòng Sheet + template; người sửa; giá vẫn ghép bằng Rule | Khi nhân viên thấy viết mô tả tốn thời gian và AI viết đủ sát sản phẩm | 2/3 người được hỏi không cần; AI viết chung chung (L.) | Tùy chọn, **không nằm trong pilot** |
 | **Agent** | AI tự lấy SP mới, tự viết, tự chọn giờ, tự đăng lên các trang | Khi bước tiếp theo không đoán trước được | Bỏ qua bước duyệt; sai giá đến thẳng khách; nhiều quyền truy cập Trang | Không chọn |
 
-**Mức chọn:** Workflow, trong đó phần lớn bước là No AI và Rule.
+**Mức chọn:** **Rule** (kèm sửa quy trình No AI). AI soạn nháp giữ làm bước tùy chọn cho ai đã quen dùng (như Văn, chị P.).
 
-**Vì sao không chọn mức đơn giản hơn:** Team đã dùng AI để viết bài (bước 2), và bỏ AI thì phần viết sẽ chậm hơn hiện tại. Nhưng phần cải thiện lớn nhất (chờ duyệt 15' và đăng tay) đến từ No AI và Rule, không phải từ AI. Nếu phỏng vấn cho thấy template cố định là đủ cho người đọc fanpage, nhóm sẽ hạ xuống mức Rule.
+**Vì sao không chọn mức đơn giản hơn:** No AI đơn thuần (chỉ quy định khung giờ duyệt) không xử lý được sai giá. Sai giá cần một nguồn giá duy nhất được ghép tự động vào bài (Rule), vì 3/3 người được hỏi đều từng sai giá khi copy tay hoặc dùng bảng giá cũ.
+
+**Vì sao không chọn mức phức tạp hơn (Workflow):** Phỏng vấn cho thấy phần AI làm được (viết mô tả) không phải chỗ nghẽn. Chỉ 1/3 người thấy AI hữu ích, 1/3 đã bỏ vì văn phong chung chung.
 
 ### 6.3. AI Canvas rút gọn
 
+*Áp dụng cho bước AI tùy chọn (bước 2 ở mục 4.2).*
+
 | Thành phần | Nội dung |
 |---|---|
-| **Prediction** — AI dự đoán / tạo ra gì? | Phần mô tả của bài đăng (2–4 câu + CTA) từ 1 dòng sản phẩm trong file |
-| **Judgment** — con người cân nhắc, quyết định gì? | Nhân viên: nháp có đúng và hợp giọng trang không. Quản lý: bài có được đăng không, đăng giờ nào |
-| **Action** — hành động cuối cùng là gì, ai làm? | Nhân viên lên lịch bài đã được duyệt trên Meta Business Suite; bài tự đăng |
-| **Outcome** — đo kết quả bằng gì? | Thời gian thao tác/bài; số bài lỡ khung giờ/tuần; số bài sai giá/tháng; thời gian nhân viên sửa nháp |
-| **Input** — AI cần dữ liệu đầu vào gì mỗi lần chạy? Có sẵn không? | 1 dòng trong file sản phẩm chuẩn (tên, giá, đặc điểm) + guideline giọng văn của trang. File chuẩn **chưa có**, phải dựng (giả định #4) |
+| **Prediction** — AI dự đoán / tạo ra gì? | Phần lời dẫn, mô tả của bài đăng (2–4 câu + CTA) từ các cột `Tên SP`, `Đặc điểm nổi bật`, `Đối tượng khách` của 1 dòng Sheet |
+| **Judgment** — con người cân nhắc, quyết định gì? | Nhân viên: nháp có đúng với sản phẩm thật và hợp giọng trang không. Quản lý: bài có được đăng không, đăng khung giờ nào |
+| **Action** — hành động cuối cùng là gì, ai làm? | Nhân viên lên lịch bài đã duyệt trên Meta Business Suite; bài tự đăng |
+| **Outcome** — đo kết quả bằng gì? | Thời gian nhân viên sửa nháp; tỉ lệ nháp phải viết lại; số bài sai thông tin |
+| **Input** — AI cần dữ liệu đầu vào gì mỗi lần chạy? Có sẵn không? | 1 dòng trong Bảng Sản Phẩm chuẩn + guideline giọng văn của trang. Bảng chuẩn **chưa có**, dựng trong pilot; 2/3 người được hỏi đã có Sheet theo dõi bài để làm nền |
 | **Feedback** — lấy phản hồi ở đâu để cải thiện? | Phần nhân viên sửa trong nháp; bài quản lý trả về; comment khách báo sai |
 
 ### 6.4. Hai câu hỏi của Google PAIR
 
-- Người dùng muốn **được hỗ trợ (augment)** hay **giao hẳn việc (automate)**? Bằng chứng: **Augment.** Hành vi hiện tại của Văn là dùng AI viết nháp rồi tự sửa 5'/bài, và vẫn gửi quản lý duyệt. Chưa có bằng chứng từ người ngoài nhóm; cần hỏi trong phỏng vấn (câu 4, 7 trong guide).
-- AI sai kiểu nào tệ hơn, **báo nhầm** hay **bỏ sót**? Vì sao, và thiết kế đã xử lý thế nào: Với bài viết, **đưa thông tin sai** (sai giá, bịa khuyến mãi) tệ hơn **bỏ sót** (thiếu một đặc điểm SP). Thông tin sai đến thẳng khách, và sai giá đã xảy ra 5–10 lần/tháng. Thiết kế xử lý: giá, tên, khuyến mãi chèn bằng Rule từ file; AI chỉ viết mô tả; nhân viên đối chiếu giá ở bước 3; quản lý duyệt ở bước 4.
+- Người dùng muốn **được hỗ trợ (augment)** hay **giao hẳn việc (automate)**? Bằng chứng: **Augment**, và chỉ ở mức nhẹ. Chị P. dùng ChatGPT viết nháp rồi tự sửa; L. đã thử nhưng vẫn tự viết lại phần lớn; người thứ 2 tự viết theo công thức mẫu. Không ai muốn bài tự đăng, và cả 3 chủ shop đều muốn tự duyệt giá và nội dung.
+- AI sai kiểu nào tệ hơn, **báo nhầm** hay **bỏ sót**? Vì sao, và thiết kế đã xử lý thế nào: Với bài viết, **đưa thông tin sai** (sai giá, bịa khuyến mãi, sai size) tệ hơn **bỏ sót** (thiếu một đặc điểm sản phẩm). Thông tin sai đến thẳng khách: 2/3 người được hỏi đã phải bù tiền cho khách vì sai giá. Thiết kế xử lý: giá và khuyến mãi ghép bằng Rule từ cột `Giá chuẩn`, AI không được viết số; nhân viên đối chiếu ở bước 3; quản lý duyệt ở bước 4.
 
 ---
 
@@ -301,33 +348,35 @@ Vì sao: Phần quan trọng nhất của bài (tên, giá, ảnh) là dữ li�
 
 | Trường | Nội dung |
 |---|---|
-| **Actor** | Nhân viên content phụ trách fanpage bán hàng (mỗi người >10 bài/ngày); quản lý duyệt bài |
-| **Quy trình** | Copy thông tin SP → AI viết → sửa bài → dán lên FB → chờ quản lý duyệt → đăng; lặp lại trên hơn 10 trang |
-| **Bottleneck** | Chờ quản lý duyệt từng bài (~15'/bài) và đăng tay từng trang đúng giờ |
-| **Impact** | 1 người: 100–150 phút/ngày thao tác tay; 4–5 bài/tuần lỡ khung giờ; 10 lần trùng hoặc trống lịch/tuần; 5–10 lần/tháng mất 10–15' tìm người đăng bài sai |
-| **Success Metric** (baseline → target, cách đo) | (1) Thời gian thao tác: 13'/bài → ≤7'/bài; (2) bài lỡ khung giờ: 4–5/tuần → ≤1/tuần; (3) bài sai giá do quy trình mới: 0 trong pilot; (4) thời gian tìm người đăng bài sai: 10–15' → <2'. Đo bằng bấm giờ 20 bài/tuần, đếm từ file theo dõi và group chat trong 2 tuần pilot |
-| **Boundary** | AI chỉ viết phần mô tả; không viết giá, tên, khuyến mãi; không lên lịch, không đăng. Bài chưa có dấu "đã duyệt" trong file thì không được lên lịch |
-| **AI intervention point** | Bước 2: sau khi dữ liệu SP đã nằm trong file chuẩn, trước bước nhân viên sửa |
-| **Mức chọn** | Workflow (phần lớn bước là No AI và Rule) |
-| **Rủi ro & người kiểm tra** | AI thêm thông tin không có trong file → nhân viên kiểm ở bước 3. Sai giá do file chưa cập nhật → nhân viên đối chiếu giá, quản lý duyệt ở bước 4. Quản lý lỡ khung duyệt → bài không được lên lịch, nhân viên báo trong group |
+| **Actor** | Nhân viên content của shop bán lẻ nhỏ, mỗi bài phải được chủ shop hoặc quản lý duyệt qua nhóm chat (Zalo) trước khi đăng |
+| **Quy trình** | Lấy giá/ảnh từ file kho và chat → soạn bài (có hoặc không dùng AI) → gửi lẻ vào Zalo chờ duyệt → lên lịch trên Meta Business Suite (hoặc đăng tay) |
+| **Bottleneck** | Chờ duyệt lẻ từng bài qua nhóm chat: 15' (Văn), 15–30' (P.), trung bình 90' (người thứ 2), 30'–3,5 tiếng (L.) |
+| **Impact** | 3–5 bài/tuần lỡ khung giờ đăng (Văn, P.); sai giá 1–2 lần/tháng ở cả 3 người phỏng vấn, 2/3 phải bù tiền cho khách; team Văn mất thêm 10–15'/lần tìm người đăng bài sai |
+| **Success Metric** (baseline → target, cách đo) | (1) Bài lỡ khung giờ: 4–5/tuần → ≤1/tuần; (2) bài sai giá: 1–2/tháng → 0 trong 4 tuần pilot; (3) thời gian thao tác: 13'/bài → ≤6'/bài; (4) thời gian tìm người soạn/duyệt bài sai: 10–15' → <1'. Đo bằng cột trạng thái và giờ duyệt trên Sheet, đếm comment báo sai, bấm giờ 20 bài/tuần |
+| **Boundary** | Giá, khuyến mãi, size chỉ lấy từ cột `Giá chuẩn` của bảng; không ai (người hay AI) gõ lại số tiền bằng tay. Bài chưa có trạng thái `Đã duyệt` thì không được lên lịch. Nếu dùng AI (tùy chọn): AI chỉ viết mô tả, không viết số, không lên lịch, không đăng |
+| **AI intervention point** | Không có trong pilot. Tùy chọn: bước 2 (soạn mô tả từ 1 dòng Sheet), trước bước nhân viên kiểm |
+| **Mức chọn** | **Rule** (kèm sửa quy trình duyệt — No AI); Workflow là tùy chọn |
+| **Rủi ro & người kiểm tra** | Kho không cập nhật giá vào bảng → nhân viên đối chiếu ở bước 3, quản lý kiểm giá ở bước 4. Quản lý lỡ khung duyệt → dùng Fallback 2 (tag duyệt gấp trong 5'). Chủ shop không mở Sheet → gom lô duyệt trong 1 tin Zalo/khung giờ |
 
 **Thay đổi so với v0 và lý do:**
 
 | Trường | v0 | v1 | Vì sao đổi |
 |---|---|---|---|
-| Bottleneck | Chỉ chờ duyệt | Chờ duyệt + đăng tay từng trang | Gộp #3 vào problem (mục 2.3, Opportunity C) |
-| Success Metric | 28 phút/bài từ lúc có SP đến lúc lên → <10' | Thời gian thao tác + số bài lỡ giờ + bài sai giá + thời gian tìm người | Phản biện của AI: duyệt theo lô làm metric "phút/bài" mất ý nghĩa; thiếu metric chất lượng |
-| Boundary | AI không tự đăng, không thay quản lý duyệt | Thêm: AI không viết giá, tên, khuyến mãi; chưa duyệt thì không lên lịch | Sai giá là lỗi đã xảy ra 5–10 lần/tháng |
+| Actor | Nhân viên content >10 bài/ngày, hơn 10 trang | Nhân viên content của shop nhỏ, bài phải duyệt qua nhóm chat | Phỏng vấn: 2–4 trang, 3–12 bài/ngày; điểm chung là duyệt qua Zalo, không phải số trang |
+| Bottleneck | Chờ duyệt ~15'/bài | Chờ duyệt lẻ qua chat, 15' đến 3,5 tiếng | 3/3 người xác nhận, mức chờ lâu hơn baseline của Văn |
+| Success Metric | 28 phút/bài từ lúc có SP đến lúc lên → <10' | Bài lỡ giờ + bài sai giá + thời gian thao tác + thời gian tìm người | Phản biện của AI ở mục 5; phỏng vấn cho thấy sai giá gây bù lỗ |
+| Boundary | AI không tự đăng, không thay quản lý duyệt | Giá chỉ lấy từ cột `Giá chuẩn`; chưa duyệt thì không lên lịch | Nguyên nhân gốc của sai giá là bảng giá không đồng bộ (2/3 người) |
+| Mức chọn | (chưa có) | Rule; Workflow tùy chọn | 2/3 người không cần AI viết bài |
 
-**Tiêu chí đánh giá đầu ra của AI (3–5 tiêu chí):**
+**Tiêu chí đánh giá đầu ra của AI (3–5 tiêu chí)** — áp dụng khi dùng bước AI tùy chọn:
 
 | # | Tiêu chí | Đạt khi | Không đạt khi |
 |---:|---|---|---|
-| 1 | Không bịa thông tin | Mọi đặc điểm SP trong nháp có trong dòng file sản phẩm | Có công dụng, khuyến mãi, số liệu không có trong file |
-| 2 | Không đụng vào giá và tên | Phần giá, tên SP giữ nguyên như template chèn từ file | AI viết lại, làm tròn hoặc thêm giá |
-| 3 | Đủ phần bắt buộc | Có mô tả, CTA, hashtag theo guideline của trang | Thiếu CTA hoặc hashtag; sai trang |
-| 4 | Sửa nhanh | Nhân viên sửa ≤2'/bài | Phải viết lại quá nửa bài |
-| 5 | Đúng độ dài | 2–4 câu mô tả, không lan man | Dài quá 6 câu hoặc lặp ý |
+| 1 | Không bịa thông tin | Mọi đặc điểm SP trong nháp có trong dòng Sheet | Có công dụng, chất liệu, khuyến mãi không có trong Sheet |
+| 2 | Không đụng vào giá, size | Phần giá, size giữ nguyên như template ghép từ cột `Giá chuẩn` | AI viết lại, làm tròn hoặc thêm số |
+| 3 | Sát sản phẩm, không chung chung | Nêu ít nhất 2 đặc điểm riêng của sản phẩm (phom, chất vải, đối tượng) | Câu dùng được cho mọi sản phẩm (lý do L. bỏ AI) |
+| 4 | Sửa nhanh | Nhân viên sửa ≤2'/bài | Phải viết lại quá 50% số câu (Fallback 1) |
+| 5 | Đủ phần bắt buộc | Có mô tả, CTA, hashtag theo guideline của trang | Thiếu CTA hoặc hashtag; sai trang |
 
 ---
 
@@ -337,46 +386,49 @@ Vì sao: Phần quan trọng nhất của bài (tên, giá, ảnh) là dữ li�
 
 | Rủi ro | Câu hỏi | Mức độ rủi ro (Thấp = an toàn / TB / Cao = nguy hiểm) | Lý do / bằng chứng |
 |---|---|---|---|
-| **Value** | Người dùng có thật sự cần và sẽ dùng không? | **Cao** | Toàn bộ bằng chứng từ 1 người trong nhóm; chưa phỏng vấn ai ngoài nhóm; giả định #2 (nghẽn ở chờ duyệt) chưa kiểm |
-| **Usability** | Người dùng có dùng được, có hiểu và sửa được đầu ra của AI không? | Thấp | Nhân viên đã dùng AI viết bài và tự sửa; Meta Business Suite có sẵn cho người quản lý Trang |
-| **Feasibility** | Có đủ dữ liệu, công cụ, kỹ năng để làm không? | Trung bình | Công cụ có sẵn và miễn phí; nhưng file sản phẩm chuẩn chưa có (giả định #4), cần người cập nhật giá thường xuyên |
-| **Viability** | Có hợp chi phí, pháp lý, quy định tổ chức không? Ai vận hành? | Trung bình | Không tốn phí nếu không dùng Planable; chưa biết quản lý có chấp nhận duyệt theo lô không (giả định #5). Người vận hành: nhân viên content giữ file, quản lý giữ khung duyệt |
+| **Value** | Người dùng có thật sự cần và sẽ dùng không? | Thấp | 3/3 người ngoài nhóm xác nhận chờ duyệt là bước gây trễ nhất; 3/3 từng sai giá, 2/3 phải bù tiền. Mẫu nhỏ (3 người, cùng ngành thời trang/mỹ phẩm) |
+| **Usability** | Người dùng có dùng được, có hiểu và sửa được đầu ra của AI không? | Trung bình | Nhân viên đã quen Google Sheets và Meta Business Suite (2/3 đã có Sheet theo dõi). Nhưng 1/3 chủ shop từ chối công cụ mới (Trello, Meta), nên duyệt trên Sheet có thể không được dùng |
+| **Feasibility** | Có đủ dữ liệu, công cụ, kỹ năng để làm không? | Thấp | Google Sheets + Meta Business Suite có sẵn, miễn phí; không cần xây gì |
+| **Viability** | Có hợp chi phí, pháp lý, quy định tổ chức không? Ai vận hành? | Trung bình | Không tốn phí. Chưa hỏi được chủ shop hay quản lý nào về duyệt theo lô (giả định #5); kho phải đổi thói quen báo giá trong chat. Người vận hành: nhân viên content giữ bảng, quản lý giữ khung duyệt |
 
 ### 8.2. Kết luận
 
-**Quyết định:** **Not Yet**
+**Quyết định:** **Go, phạm vi nhỏ** — mức Rule kèm sửa quy trình duyệt; không xây công cụ, không có AI trong pilot.
 
-**Lý do:** Value đang ở mức Cao vì chưa có bằng chứng ngoài nhóm, và giả định quan trọng nhất (#2) chưa được kiểm. Nếu #2 sai, quy trình tương lai ở mục 4 giải sai chỗ. Phần còn lại (công cụ, chi phí, khả năng dùng) đều ổn, nên chỉ cần kiểm chứng xong là có thể pilot.
+**Lý do:** Không có rủi ro mức Cao. Value đã được 3 người ngoài nhóm xác nhận. Hai rủi ro Trung bình (chủ shop có chịu duyệt theo lô không, kho có cập nhật giá vào bảng không) đều kiểm được ngay trong pilot, và có phương án chạy trong Zalo.
 
-**Nếu Go — pilot nhỏ nhất:** (sẵn sàng khi điều kiện bên dưới đạt) 2 tuần, 1 trang, 1 nhân viên. Không xây gì: dựng 1 Google Sheet sản phẩm + file theo dõi, 1 prompt chuẩn, 2 khung duyệt/ngày, lên lịch bằng Meta Business Suite. Nhân viên bấm giờ và chấm nháp theo 5 tiêu chí ở mục 7.
+**Nếu Go — pilot nhỏ nhất:**
 
-**Nếu Not Yet — cần kiểm chứng gì trước:**
+- 2 tuần, team của Văn, 1 fanpage, 1 nhân viên.
+- Dựng Bảng Sản Phẩm & Lịch Đăng theo cột ở mục 4.2; template ghép giá từ cột `Giá chuẩn`.
+- Hỏi quản lý trước khi bắt đầu: chọn 2–3 khung duyệt/ngày, duyệt trên Sheet hay qua 1 tin Zalo/khung (giả định #5).
+- Ghi giờ gửi duyệt, giờ duyệt, số bài lỡ khung giờ, số bài sai giá; bấm giờ thao tác 20 bài.
+- Song song: hỏi lại 3 người đã phỏng vấn xem chủ shop của họ có chịu thử duyệt theo lô 1 tuần không.
 
-1. Phỏng vấn 2–3 người ngoài nhóm theo [cp4-interview-guide.md](../assets/cp4-interview-guide.md), điền snapshot ở mục 3.2. Đạt khi ≥2/3 người xác nhận chờ duyệt hoặc đăng tay là bước lâu nhất.
-2. Văn bấm giờ 20 bài trong 1 tuần để có baseline thật cho từng bước (hiện là số ước lượng).
-3. Hỏi quản lý: có chấp nhận duyệt theo lô 2 khung giờ/ngày không (giả định #5).
+**Nếu Not Yet — cần kiểm chứng gì trước:** Không áp dụng.
 
-**Nếu No-Go — nên làm gì thay AI:** Không áp dụng. Nếu phỏng vấn cho thấy template là đủ, nhóm hạ xuống No AI + Rule: khung giờ duyệt cố định, template, file theo dõi, lên lịch có sẵn.
+**Nếu No-Go — nên làm gì thay AI:** Không áp dụng. Bản thân quyết định đã là No AI + Rule.
 
 **Ngưỡng dừng** (nếu sau … mà … thì quay về …):
 
-- Nếu phỏng vấn mà <2/3 người xác nhận nghẽn ở chờ duyệt hoặc đăng tay → quay về CP3, xem lại candidate #10 hoặc vẽ lại quy trình quanh khâu soạn bài.
-- Nếu sau 2 tuần pilot mà bài lỡ khung giờ vẫn >3/tuần → bỏ duyệt theo lô, quay về duyệt từng bài.
-- Nếu có 1 bài sai giá lên đến khách do quy trình mới → tắt bước AI, dùng template cố định (No AI).
-- Nếu nhân viên sửa nháp trung bình >5'/bài → bỏ AI, dùng template cố định.
+- Nếu sau 2 tuần pilot mà bài lỡ khung giờ vẫn >3/tuần → bỏ duyệt theo lô, quay về duyệt lẻ, và hỏi lại quản lý nguyên nhân.
+- Nếu trong tuần đầu quản lý bỏ lỡ hơn nửa số khung duyệt → chuyển sang gom lô trong 1 tin Zalo; nếu vẫn không được thì dừng pilot.
+- Nếu có 1 bài sai giá lên đến khách vì bảng chưa cập nhật → dừng 1 ngày, thêm bước kho xác nhận giá vào bảng trước khi soạn.
+- Nếu sau pilot nhân viên vẫn thấy viết mô tả tốn thời gian nhất → mới thử bước AI tùy chọn, chấm theo 5 tiêu chí ở mục 7.
 
 ---
 
 ## 9. Hạn chế và hướng tiếp theo
 
-- Chưa có phỏng vấn người ngoài nhóm; toàn bộ số liệu từ trải nghiệm của 1 thành viên (Văn). Đây là lý do quyết định Not Yet.
-- Số phút từng bước là ước lượng; cần bấm giờ 20 bài để có baseline thật.
+- Mẫu phỏng vấn nhỏ: 3 người, cùng ngày 09/11/2026, cùng ngành thời trang/mỹ phẩm, đều là nhân viên. **Chưa hỏi được chủ shop hay quản lý duyệt bài nào**, nên giả định #5 chưa kiểm.
+- Số phút trong phỏng vấn là người được hỏi tự kể, chưa có log; baseline của Văn là ước lượng, cần bấm giờ 20 bài trong pilot.
 - Link Social Media Today từ 01/2020; giao diện Activity Log của Facebook có thể đã đổi, cần tự kiểm lại.
 - Candidate #10 (phân loại inbox đầu ca phòng khám nhi) có impact lớn về an toàn cho trẻ. Đưa vào vòng sau nếu tiếp cận được lễ tân và có người trong ngành y kiểm boundary.
 - Phần hỏi đáp pitch (2.1), cây OST, chấm điểm (2.3–2.4) và phản biện v0 (mục 5) có phần nháp do AI đóng vai; nhóm cần thảo luận và sửa lại theo thực tế.
 
 ## 10. Tài liệu tham khảo
 
+- Interview snapshot: [cp4-interview-snapshot-ChiP.md](../assets/cp4-interview-snapshot-ChiP.md), [cp4-interview.md](../assets/cp4-interview.md), [cp4_interview_snapshot_1.md](../assets/cp4_interview_snapshot_1.md); bộ câu hỏi: [cp4-interview-guide.md](../assets/cp4-interview-guide.md).
 - Meta Business Help Center — lên lịch bài cho Trang: https://www.facebook.com/business/help/1252240869631062
 - Planable — Content approvals: https://planable.io/guides/content-approvals-in-planable/
 - Social Media Today (01/2020) — Facebook Page Management History: https://www.socialmediatoday.com/news/facebook-adds-new-page-management-history-tab-in-page-tools/570171/
